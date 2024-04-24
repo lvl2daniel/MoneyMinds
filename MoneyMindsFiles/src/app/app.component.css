@@ -1,0 +1,10 @@
+.blue-bg{
+    background-color: #c4f0f9;
+}
+
+.vector-background{
+    background-image: url('/assets/vec-bg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

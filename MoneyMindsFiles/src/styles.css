@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.blue-bg{
+    background-color: #c4f0f9;
+}
+
+.vector-background{
+    background-image: url('/assets/vec-bg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* font family sans */
+
+.div{
+    font-family:sans-serif
+}
+
+/* globally declare all font to be sans-serif */
+*{
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
